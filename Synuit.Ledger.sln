@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Ledger.Server", "Synuit.Ledger\Synuit.Ledger.Server.csproj", "{530EEE1D-899B-4955-8A59-213AB3B0ABD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synuit.Ledger.Api", "Synuit.Ledger.Api\Synuit.Ledger.Api.csproj", "{7AEC31F3-C2E4-4373-AA8F-20EF8CC418C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synuit.Ledger.Services", "Synuit.Ledger.Services\Synuit.Ledger.Services.csproj", "{BD531A53-E207-424F-A77E-1C7515FA49D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synuit.Ledger.Data", "Synuit.Ledger.Data\Synuit.Ledger.Data.csproj", "{A89EFEB8-DC0E-4965-BCEF-EBE22BDB337B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synuit.Ledger.Sdk", "Synuit.Ledger.Sdk\Synuit.Ledger.Sdk.csproj", "{0C0D2071-A79A-41F4-ABF8-CE167630A18A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{530EEE1D-899B-4955-8A59-213AB3B0ABD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530EEE1D-899B-4955-8A59-213AB3B0ABD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530EEE1D-899B-4955-8A59-213AB3B0ABD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530EEE1D-899B-4955-8A59-213AB3B0ABD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AEC31F3-C2E4-4373-AA8F-20EF8CC418C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AEC31F3-C2E4-4373-AA8F-20EF8CC418C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AEC31F3-C2E4-4373-AA8F-20EF8CC418C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AEC31F3-C2E4-4373-AA8F-20EF8CC418C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD531A53-E207-424F-A77E-1C7515FA49D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD531A53-E207-424F-A77E-1C7515FA49D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD531A53-E207-424F-A77E-1C7515FA49D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD531A53-E207-424F-A77E-1C7515FA49D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89EFEB8-DC0E-4965-BCEF-EBE22BDB337B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89EFEB8-DC0E-4965-BCEF-EBE22BDB337B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89EFEB8-DC0E-4965-BCEF-EBE22BDB337B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89EFEB8-DC0E-4965-BCEF-EBE22BDB337B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0D2071-A79A-41F4-ABF8-CE167630A18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0D2071-A79A-41F4-ABF8-CE167630A18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0D2071-A79A-41F4-ABF8-CE167630A18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0D2071-A79A-41F4-ABF8-CE167630A18A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A7C9A64-FA04-43DE-8E3C-D19973BB8022}
+	EndGlobalSection
+EndGlobal
